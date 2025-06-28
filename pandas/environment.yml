@@ -1,0 +1,25 @@
+# Create environment:
+# % conda env create -f environment.yml
+#
+# Update environment when there is change:
+# % conda env update -f environment.yml --prune
+#
+# Remove environment:
+# % conda remove --name ml --all
+#
+# Frequently used commands:
+# % conda env list
+# % conda activate [env name: ml]
+# % conda deactivate
+# % pip list
+# % pip freeze > requirements.txt
+# % pip install -r requirements.txt
+name: ml
+channels:
+  - defaults
+dependencies:
+  - pip
+  - python=3.10
+  - Cython
+  - pip:
+      - --requirement requirements.txt
