@@ -7,7 +7,7 @@
 [![pandas](https://img.shields.io/badge/Pandas-2.0+-blue.svg)](https://pandas.pydata.org/)
 [![Conda](https://img.shields.io/badge/Conda-Environment-green.svg)](https://docs.conda.io/)
 
-A comprehensive collection of ultra-quick tutorials and practical examples for essential data science libraries in Python. This toolkit is designed to help you quickly get started with scientific computing, data analysis, and machine learning.
+A comprehensive collection of toolkits for essential AI/ML and Data Science libraries in Python. This toolkit is designed to help you quickly get started with scientific computing, data analysis, and artificial intelligence, machine learning & data science.
 
 ## What's Included
 
