@@ -1,0 +1,24 @@
+name: jupyter-tutorials
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - jupyter=1.0
+  - jupyterlab=4.0
+  - ipykernel=6.25
+  - notebook=7.0
+  - numpy=1.24
+  - pandas=2.0
+  - matplotlib=3.7
+  - seaborn=0.12
+  - ipywidgets=8.0
+  - requests=2.31
+  - tqdm=4.65
+  - pip=23.2
+  - pip:
+    - jupyter-contrib-nbextensions
+    - jupyter-nbextensions-configurator
+    - jupyterlab-git
+    - jupyterlab-lsp
+    - jupyterlab-code-formatter 
