@@ -1,0 +1,16 @@
+jupyter==1.0.0
+jupyterlab==4.0.0
+ipykernel==6.25.0
+notebook==7.0.0
+numpy==1.24.3
+pandas==2.0.3
+matplotlib==3.7.2
+seaborn==0.12.2
+ipywidgets==8.0.7
+requests==2.31.0
+tqdm==4.65.0
+jupyter-contrib-nbextensions==0.7.0
+jupyter-nbextensions-configurator==0.6.1
+jupyterlab-git==0.41.0
+jupyterlab-lsp==4.2.0
+jupyterlab-code-formatter==2.3.0 
