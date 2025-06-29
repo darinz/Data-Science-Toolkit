@@ -1,4 +1,4 @@
-# Artificial Intelligence, Machine Learning, and Data Science (AIMLDS) Toolkit
+# Artificial Intelligence, Machine Learning, and Data Science Toolkit
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
