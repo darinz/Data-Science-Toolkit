@@ -269,7 +269,7 @@ with torch.no_grad():
 
 # Context manager prevents gradient computation
 print(f"x.grad before: {x.grad}")
-y_no_grad.backward()  # This will raise an error
+# y_no_grad.backward()  # This will raise an error
 ```
 
 ### 3. Gradient Enabling/Disabling
@@ -394,7 +394,7 @@ class SigmoidFunction(Function):
 
 # Test custom sigmoid
 x = torch.tensor([-2.0, 0.0, 2.0], requires_grad=True)
-y = CustomSigmoid.apply(x)
+y = SigmoidFunction.apply(x)
 y.backward(torch.ones_like(y))
 print(f"Input: {x}")
 print(f"Output: {y}")
