@@ -183,15 +183,6 @@ plt.suptitle('Pair Plot with Correlation Coefficients', y=1.02, fontsize=14, fon
 plt.show()
 ```
 
-### Pair Plot with Different Plot Types
-
-```python
-# Create pair plot with different plot types
-sns.pairplot(df, diag_kind='hist', plot_kws={'alpha': 0.6})
-plt.suptitle('Pair Plot with Histograms', y=1.02, fontsize=14, fontweight='bold')
-plt.show()
-```
-
 ### Pair Plot with Categorical Variable
 
 ```python
@@ -360,55 +351,44 @@ for pair, result in ci_results.items():
 
 ## Advanced Correlation Analysis
 
-### Partial Correlation
+### Time Series Correlation
 
 ```python
-# Calculate partial correlations
-def partial_correlation(df):
-    """Calculate partial correlation matrix"""
-    from scipy.stats import pearsonr
-    
-    n_vars = len(df.columns)
-    partial_corr = np.zeros((n_vars, n_vars))
-    
-    for i in range(n_vars):
-        for j in range(n_vars):
-            if i == j:
-                partial_corr[i, j] = 1.0
-            else:
-                # Get all other variables
-                other_vars = [k for k in range(n_vars) if k not in [i, j]]
-                
-                if len(other_vars) == 0:
-                    # No control variables, use regular correlation
-                    r, _ = pearsonr(df.iloc[:, i], df.iloc[:, j])
-                    partial_corr[i, j] = r
-                else:
-                    # Calculate partial correlation
-                    from scipy import linalg
-                    
-                    # Create correlation matrix for variables i, j, and controls
-                    vars_subset = [i, j] + other_vars
-                    corr_subset = df.iloc[:, vars_subset].corr().values
-                    
-                    # Calculate partial correlation
-                    try:
-                        inv_corr = linalg.inv(corr_subset)
-                        partial_corr[i, j] = -inv_corr[0, 1] / np.sqrt(inv_corr[0, 0] * inv_corr[1, 1])
-                    except:
-                        partial_corr[i, j] = np.nan
-    
-    return pd.DataFrame(partial_corr, index=df.columns, columns=df.columns)
+# Create time series data for correlation analysis
+np.random.seed(42)
+n_timepoints = 100
+time_series_data = pd.DataFrame({
+    'Time': range(n_timepoints),
+    'Series_A': np.cumsum(np.random.randn(n_timepoints)),
+    'Series_B': np.cumsum(np.random.randn(n_timepoints)) * 0.7 + np.random.randn(n_timepoints) * 0.3,
+    'Series_C': np.cumsum(np.random.randn(n_timepoints)) * 0.3 + np.random.randn(n_timepoints) * 0.7
+})
 
-# Calculate partial correlations
-partial_corr_matrix = partial_correlation(df)
+# Calculate rolling correlation
+rolling_corr = time_series_data[['Series_A', 'Series_B']].rolling(window=20).corr()
 
-# Create heatmap for partial correlations
-plt.figure(figsize=(10, 8))
-sns.heatmap(partial_corr_matrix, annot=True, cmap='coolwarm', center=0, 
-            square=True, linewidths=0.5, cbar_kws={"shrink": 0.8})
+# Plot time series and rolling correlation
+fig, axes = plt.subplots(2, 1, figsize=(12, 10))
 
-plt.title('Partial Correlation Matrix', fontsize=14, fontweight='bold')
+# Time series
+axes[0].plot(time_series_data['Time'], time_series_data['Series_A'], label='Series A', linewidth=2)
+axes[0].plot(time_series_data['Time'], time_series_data['Series_B'], label='Series B', linewidth=2)
+axes[0].set_title('Time Series Data', fontsize=12, fontweight='bold')
+axes[0].set_xlabel('Time')
+axes[0].set_ylabel('Value')
+axes[0].legend()
+axes[0].grid(True, alpha=0.3)
+
+# Rolling correlation
+rolling_corr_ab = rolling_corr.loc[rolling_corr.index.get_level_values(1) == 'Series_B', 'Series_A']
+axes[1].plot(time_series_data['Time'], rolling_corr_ab, linewidth=2, color='red')
+axes[1].axhline(y=0, color='black', linestyle='--', alpha=0.5)
+axes[1].set_title('Rolling Correlation (Window=20)', fontsize=12, fontweight='bold')
+axes[1].set_xlabel('Time')
+axes[1].set_ylabel('Correlation')
+axes[1].grid(True, alpha=0.3)
+
+plt.suptitle('Time Series Correlation Analysis', fontsize=14, fontweight='bold')
 plt.tight_layout()
 plt.show()
 ```
@@ -453,48 +433,6 @@ plt.tight_layout()
 plt.show()
 ```
 
-### Time Series Correlation
-
-```python
-# Create time series data for correlation analysis
-np.random.seed(42)
-n_timepoints = 100
-time_series_data = pd.DataFrame({
-    'Time': range(n_timepoints),
-    'Series_A': np.cumsum(np.random.randn(n_timepoints)),
-    'Series_B': np.cumsum(np.random.randn(n_timepoints)) * 0.7 + np.random.randn(n_timepoints) * 0.3,
-    'Series_C': np.cumsum(np.random.randn(n_timepoints)) * 0.3 + np.random.randn(n_timepoints) * 0.7
-})
-
-# Calculate rolling correlation
-rolling_corr = time_series_data[['Series_A', 'Series_B']].rolling(window=20).corr()
-
-# Plot time series and rolling correlation
-fig, axes = plt.subplots(2, 1, figsize=(12, 10))
-
-# Time series
-axes[0].plot(time_series_data['Time'], time_series_data['Series_A'], label='Series A', linewidth=2)
-axes[0].plot(time_series_data['Time'], time_series_data['Series_B'], label='Series B', linewidth=2)
-axes[0].set_title('Time Series Data', fontsize=12, fontweight='bold')
-axes[0].set_xlabel('Time')
-axes[0].set_ylabel('Value')
-axes[0].legend()
-axes[0].grid(True, alpha=0.3)
-
-# Rolling correlation
-rolling_corr_ab = rolling_corr.loc[rolling_corr.index.get_level_values(1) == 'Series_B', 'Series_A']
-axes[1].plot(time_series_data['Time'], rolling_corr_ab, linewidth=2, color='red')
-axes[1].axhline(y=0, color='black', linestyle='--', alpha=0.5)
-axes[1].set_title('Rolling Correlation (Window=20)', fontsize=12, fontweight='bold')
-axes[1].set_xlabel('Time')
-axes[1].set_ylabel('Correlation')
-axes[1].grid(True, alpha=0.3)
-
-plt.suptitle('Time Series Correlation Analysis', fontsize=14, fontweight='bold')
-plt.tight_layout()
-plt.show()
-```
-
 ## Summary
 
 This guide covered comprehensive correlation analysis with Seaborn:
@@ -504,7 +442,7 @@ This guide covered comprehensive correlation analysis with Seaborn:
 3. **Pair Plots**: Multi-variable correlation visualization
 4. **Clustermaps**: Hierarchical clustering of correlations
 5. **Correlation Significance**: P-values and confidence intervals
-6. **Advanced Analysis**: Partial correlations, networks, and time series
+6. **Advanced Analysis**: Time series correlations and network visualization
 
 These correlation analysis techniques are essential for:
 - **Data Exploration**: Understanding relationships between variables
