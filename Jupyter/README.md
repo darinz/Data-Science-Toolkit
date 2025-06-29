@@ -1,5 +1,15 @@
 # Jupyter Tutorials
 
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
+[![JupyterLab](https://img.shields.io/badge/JupyterLab-4.0+-blue.svg)](https://jupyterlab.readthedocs.io/)
+[![IPython](https://img.shields.io/badge/IPython-8.0+-blue.svg)](https://ipython.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-1.24+-blue.svg)](https://numpy.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-2.0+-blue.svg)](https://pandas.pydata.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.7+-blue.svg)](https://matplotlib.org/)
+[![Conda](https://img.shields.io/badge/Conda-Environment-green.svg)](https://docs.conda.io/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](../LICENSE)
+
 A comprehensive guide to Jupyter notebooks, JupyterLab, and interactive computing for data science and machine learning.
 
 ## What's Included
