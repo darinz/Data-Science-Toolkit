@@ -6,8 +6,11 @@
 [![NumPy](https://img.shields.io/badge/NumPy-1.24+-blue.svg)](https://numpy.org/)
 [![pandas](https://img.shields.io/badge/Pandas-2.0+-blue.svg)](https://pandas.pydata.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15+-orange.svg)](https://www.tensorflow.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3+-green.svg)](https://scikit-learn.org/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-3.7+-blue.svg)](https://matplotlib.org/)
+[![Seaborn](https://img.shields.io/badge/Seaborn-0.12+-orange.svg)](https://seaborn.pydata.org/)
+[![Plotly](https://img.shields.io/badge/Plotly-5.0+-purple.svg)](https://plotly.com/python/)
 [![Conda](https://img.shields.io/badge/Conda-Environment-green.svg)](https://docs.conda.io/)
 
 A comprehensive collection of toolkits for essential AI/ML and Data Science libraries in Python. This toolkit is designed to help you quickly get started with scientific computing, data analysis, machine learning, deep learning, and data visualization.
@@ -15,17 +18,19 @@ A comprehensive collection of toolkits for essential AI/ML and Data Science libr
 ## What's Included
 
 ### Core Data Science Libraries
-- **NumPy Tutorials** - Scientific computing fundamentals and array operations (Python scripts)
-- **pandas Tutorials** - Data manipulation, analysis, and DataFrame operations
-- **Matplotlib Tutorials** - Data visualization and plotting fundamentals
+- **[NumPy Tutorials](./NumPy/)** - Scientific computing fundamentals and array operations (Markdown guides + Jupyter notebooks)
+- **[pandas Tutorials](./pandas/)** - Data manipulation, analysis, and DataFrame operations (Markdown guides + Jupyter notebooks)
+- **[Matplotlib Tutorials](./Matplotlib/)** - Data visualization and plotting fundamentals (Markdown guides)
+- **[Seaborn Tutorials](./Seaborn/)** - Statistical data visualization (Markdown guides)
+- **[Plotly Tutorials](./Plotly/)** - Interactive data visualization and dashboards (Markdown guides)
 
 ### Machine Learning & Deep Learning
-- **scikit-learn Tutorials** - Machine learning algorithms and workflows
-- **TensorFlow Tutorials** - Deep learning and neural networks
-- **PyTorch Tutorials** - Alternative deep learning framework
+- **[scikit-learn Tutorials](./scikit-learn/)** - Machine learning algorithms and workflows (Markdown guides)
+- **[TensorFlow Tutorials](./TensorFlow/)** - Deep learning and neural networks (Markdown guides)
+- **[PyTorch Tutorials](./PyTorch/)** - Alternative deep learning framework (Markdown guides + Jupyter notebooks in subdirectories)
 
 ### Development Environment
-- **Jupyter Tutorials** - Interactive computing and notebook workflows (Python scripts)
+- **[Jupyter Tutorials](./Jupyter/)** - Interactive computing and notebook workflows (Markdown guides)
 
 ## Quick Start
 
@@ -74,40 +79,52 @@ pip install -r requirements.txt
 ## Tutorial Structure
 
 ### NumPy Module
-- **Files:** `numpy_basics.py`, `advanced_indexing.py`, `linear_algebra.py`, `random_generation.py`, `array_manipulation.py`
+- **Files:** `numpy_basics_guide.md`, `advanced_indexing_guide.md`, `linear_algebra_guide.md`, `random_generation_guide.md`, `array_manipulation_guide.md`, `numpy_ultraquick_tutorial.ipynb`, `random_generation.py`
 - **Dependencies:** NumPy, pandas, JupyterLab
 - **Focus:** Scientific computing fundamentals
-- **Note:** All NumPy tutorials are available as Python scripts for easy execution
+- **Note:** Comprehensive markdown guides with one Python script and one Jupyter notebook
 
 ### pandas Module  
-- **File:** `pandas_df_ultraquick_tutorial.ipynb`
+- **Files:** `pandas_basics_guide.md`, `data_analysis_guide.md`, `data_visualization_guide.md`, `time_series_guide.md`, `pandas_df_ultraquick_tutorial.ipynb`
 - **Dependencies:** NumPy, pandas, JupyterLab
 - **Focus:** Data analysis and manipulation
 
+### Matplotlib Module
+- **Files:** `matplotlib_basics_guide.md`, `plot_types_guide.md`, `customization_guide.md`, `subplots_layout_guide.md`, `statistical_plots_guide.md`, `3d_plotting_guide.md`, `advanced_features_guide.md`, `publication_quality_guide.md`
+- **Dependencies:** Matplotlib, NumPy, pandas, JupyterLab
+- **Focus:** Data visualization and plotting
+
+### Seaborn Module
+- **Files:** `seaborn_basics_guide.md`, `statistical_plots_guide.md`, `categorical_plots_guide.md`, `distribution_analysis_guide.md`, `correlation_analysis_guide.md`, `multi_plot_grids_guide.md`, `advanced_features_guide.md`
+- **Dependencies:** Seaborn, Matplotlib, NumPy, pandas, JupyterLab
+- **Focus:** Statistical data visualization
+
+### Plotly Module
+- **Files:** `plotly_basics_guide.md`, `plot_types_guide.md`
+- **Dependencies:** Plotly, NumPy, pandas, JupyterLab
+- **Focus:** Interactive data visualization and dashboards
+
 ### TensorFlow Module
-- **Files:** `tf_basics.ipynb`, `neural_networks.ipynb`, `cnn_tutorial.ipynb`, `rnn_tutorial.ipynb`, `data_pipelines.ipynb`
+- **Files:** `tensorflow_basics_guide.md`, `neural_networks_guide.md`, `cnn_guide.md`, `rnn_guide.md`, `data_pipelines_guide.md`, `advanced_guide.md`
 - **Dependencies:** TensorFlow, NumPy, pandas, Matplotlib, JupyterLab
 - **Focus:** Deep learning and neural networks
 
 ### scikit-learn Module
-- **Files:** `ml_basics.ipynb`, `supervised_learning.ipynb`, `unsupervised_learning.ipynb`, `feature_engineering.ipynb`, `model_selection.ipynb`, `real_world_applications.ipynb`
+- **Files:** `ml_basics_guide.md`, `supervised_learning_guide.md`, `unsupervised_learning_guide.md`, `feature_engineering_guide.md`, `model_selection_guide.md`, `real_world_applications_guide.md`
 - **Dependencies:** scikit-learn, NumPy, pandas, Matplotlib, JupyterLab
 - **Focus:** Machine learning algorithms and workflows
 
 ### Jupyter Module
-- **Files:** `jupyter_basics.py`, `jupyterlab_interface.py`, `magic_commands.py`, `interactive_widgets.py`, `best_practices.py`, `advanced_features.py`, `deployment.py`
+- **Files:** `jupyter_basics_guide.md`, `jupyterlab_interface_guide.md`, `magic_commands_guide.md`, `interactive_widgets_guide.md`, `best_practices_guide.md`, `advanced_features_guide.md`, `deployment_guide.md`
 - **Dependencies:** Jupyter, JupyterLab, NumPy, pandas, Matplotlib
 - **Focus:** Interactive computing and notebook workflows
-- **Note:** All Jupyter tutorials are available as Python scripts for easy execution
-
-### Matplotlib Module
-- **Files:** `matplotlib_basics.py`, `plot_types.ipynb`, `customization.ipynb`, `subplots_layout.ipynb`, `statistical_plots.ipynb`, `3d_plotting.ipynb`, `advanced_features.ipynb`, `publication_quality.ipynb`
-- **Dependencies:** Matplotlib, NumPy, pandas, JupyterLab
-- **Focus:** Data visualization and plotting
-- **Note:** Basics tutorial is available as both Python script and Jupyter notebook
 
 ### PyTorch Module
-- **Files:** Various tutorials in subdirectories (Tensor, Neural-Networks, Autograd, Image-Classifier)
+- **Main Files:** `advanced_pytorch_techniques_guide.md`
+- **Tensor Subdirectory:** `comprehensive_tensor_guide.md`, `tensor_operations_guide.md`, `pt_tensor.ipynb`
+- **Neural-Networks Subdirectory:** `neural_networks_comprehensive_guide.md`, `pt_neural_networks.ipynb`
+- **Autograd Subdirectory:** `autograd_comprehensive_guide.md`, `pt_autograd.ipynb`
+- **Image-Classifier Subdirectory:** `image_classification_comprehensive_guide.md`, `image_classifier.ipynb`
 - **Dependencies:** PyTorch, NumPy, pandas, Matplotlib, JupyterLab
 - **Focus:** Deep learning with PyTorch
 
@@ -130,6 +147,12 @@ pip install -r requirements.txt
 2. **Learn neural network basics** - Understand layers, activation functions, and training
 3. **Explore specialized architectures** - CNNs for computer vision, RNNs for sequential data
 4. **Build end-to-end projects** - Combine all skills in practical applications
+
+### Visualization Path
+1. **Start with Matplotlib** - Learn fundamental plotting concepts
+2. **Explore Seaborn** - Master statistical visualization
+3. **Advance to Plotly** - Create interactive visualizations and dashboards
+4. **Combine techniques** - Use multiple libraries for comprehensive visualization
 
 ## Environment Management
 
@@ -166,77 +189,44 @@ jupyter lab --port=8888
 jupyter lab --no-browser
 ```
 
-### Running NumPy Tutorials
+### Running Python Script Tutorials
 ```bash
 # Navigate to NumPy directory
 cd NumPy
 
-# Run individual tutorials
-python numpy_basics.py
-python advanced_indexing.py
-python linear_algebra.py
+# Run the available Python script
 python random_generation.py
-python array_manipulation.py
-
-# Or run all tutorials in sequence
-for script in *.py; do
-    echo "Running $script..."
-    python "$script"
-    echo "Completed $script"
-    echo "----------------------------------------"
-done
 ```
 
 ### Running Jupyter Tutorials
 ```bash
-# Navigate to Jupyter directory
-cd Jupyter
+# Navigate to module directory
+cd NumPy
 
-# Run individual tutorials
-python jupyter_basics.py
-python jupyterlab_interface.py
-python magic_commands.py
-python interactive_widgets.py
-python best_practices.py
-python advanced_features.py
-python deployment.py
+# Start Jupyter Lab
+jupyter lab
 
-# Or run all tutorials in sequence
-for script in *.py; do
-    echo "Running $script..."
-    python "$script"
-    echo "Completed $script"
-    echo "----------------------------------------"
-done
+# Open the notebook file
+# numpy_ultraquick_tutorial.ipynb
 ```
 
-## Key Features
+## Module-Specific Guides
 
-- **Comprehensive Coverage** - All major data science and ML libraries
-- **Interactive Learning** - Hands-on tutorials with practical examples
-- **Real-world Applications** - Industry-standard workflows and best practices
-- **Modular Design** - Learn each library independently or as part of a complete curriculum
-- **Production Ready** - Skills that translate directly to professional work
-- **Flexible Formats** - Both Jupyter notebooks and Python scripts available
-
-## Datasets and Examples
-
-Each module includes:
-- **Built-in datasets** - scikit-learn, TensorFlow, and other library datasets
-- **Synthetic data** - Generated examples for learning concepts
-- **Real-world examples** - Practical applications and use cases
-- **Custom datasets** - Examples you can create and modify
+Each module contains detailed README files with:
+- **Installation instructions** for that specific module
+- **Tutorial descriptions** and learning objectives
+- **File structure** and dependencies
+- **Running instructions** for tutorials
+- **Best practices** and tips
+- **Additional resources** and references
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-### Contribution Guidelines
-1. Follow the existing code style and structure
-2. Add comprehensive documentation and comments
-3. Include practical examples and use cases
-4. Test notebooks in different environments
-5. Update environment files when adding new dependencies
+We welcome contributions! Please feel free to:
+- Report bugs or issues
+- Suggest new features or improvements
+- Submit pull requests with enhancements
+- Improve documentation
 
 ## License
 
@@ -244,41 +234,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- [NumPy](https://numpy.org/) - The fundamental package for scientific computing
-- [pandas](https://pandas.pydata.org/) - Data analysis and manipulation library
-- [TensorFlow](https://www.tensorflow.org/) - Deep learning framework
-- [scikit-learn](https://scikit-learn.org/) - Machine learning library
-- [Matplotlib](https://matplotlib.org/) - Plotting library
-- [Jupyter](https://jupyter.org/) - Interactive computing platform
-- [PyTorch](https://pytorch.org/) - Deep learning framework
-- [Google Colab](https://colab.research.google.com/) - Free cloud-based Jupyter environment
-
-## Support
-
-If you encounter any issues or have questions:
-- Open an issue on GitHub
-- Check the individual module README files for specific guidance
-- Refer to the official documentation for each library
-- Join our community discussions
-
-## Roadmap
-
-### Planned Additions
-- **Seaborn Tutorials** - Advanced statistical visualization
-- **Plotly Tutorials** - Interactive plotting and dashboards
-- **Streamlit Tutorials** - Web application development
-- **FastAPI Tutorials** - API development for ML models
-- **MLOps Tutorials** - Model deployment and monitoring
-
-### Community Requests
-- Additional deep learning architectures
-- More real-world datasets and examples
-- Advanced optimization techniques
-- Cloud deployment tutorials
-- Industry-specific applications
+- All the open-source library maintainers and contributors
+- The Python data science community
+- Educators and researchers who inspire these tutorials
 
 ---
 
-**Happy Learning! 🚀**
-
-*This toolkit is designed to grow with the community. Your feedback and contributions help make it better for everyone.*
+**Happy Learning!**
