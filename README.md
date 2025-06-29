@@ -46,7 +46,7 @@ A comprehensive collection of toolkits for essential AI/ML and Data Science libr
 **Using Conda (Recommended):**
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/AIMLDS-Toolkit.git
+git clone https://github.com/darinz/AIMLDS-Toolkit.git
 cd AIMLDS-Toolkit
 
 # Create environment for specific module
