@@ -1,5 +1,14 @@
 # Plotly Tutorials
 
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![Plotly](https://img.shields.io/badge/Plotly-5.0+-purple.svg)](https://plotly.com/python/)
+[![Dash](https://img.shields.io/badge/Dash-2.0+-blue.svg)](https://dash.plotly.com/)
+[![Pandas](https://img.shields.io/badge/Pandas-2.0+-blue.svg)](https://pandas.pydata.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-1.24+-blue.svg)](https://numpy.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
+[![Conda](https://img.shields.io/badge/Conda-Environment-green.svg)](https://docs.conda.io/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](../LICENSE)
+
 A comprehensive guide to Plotly, the leading interactive plotting library for Python, covering data visualization fundamentals and advanced techniques for creating stunning interactive charts and dashboards.
 
 ## What's Included
