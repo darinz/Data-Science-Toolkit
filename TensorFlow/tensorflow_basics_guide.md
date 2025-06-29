@@ -1,5 +1,13 @@
 # TensorFlow Basics Guide
 
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15+-orange.svg)](https://www.tensorflow.org/)
+[![Keras](https://img.shields.io/badge/Keras-2.15+-red.svg)](https://keras.io/)
+[![NumPy](https://img.shields.io/badge/NumPy-1.24+-blue.svg)](https://numpy.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-2.0+-blue.svg)](https://pandas.pydata.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](../LICENSE)
+
 A comprehensive guide to TensorFlow fundamentals, covering tensors, operations, and core concepts.
 
 ## Table of Contents
