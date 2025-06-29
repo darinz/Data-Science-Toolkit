@@ -1,0 +1,15 @@
+matplotlib==3.7.2
+numpy==1.24.3
+pandas==2.0.3
+seaborn==0.12.2
+jupyter==1.0.0
+jupyterlab==4.0.0
+ipykernel==6.25.0
+scipy==1.11.1
+pillow==10.0.0
+requests==2.31.0
+tqdm==4.65.0
+plotly==5.15.0
+bokeh==3.2.0
+folium==0.14.0
+cartopy==0.21.1 
