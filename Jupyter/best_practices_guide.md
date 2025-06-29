@@ -6,7 +6,7 @@
 3. [Code Quality](#code-quality)
 4. [Documentation](#documentation)
 5. [Version Control](#version-control)
-6. [Performance Optimization](#performance-optimization)
+6. [Performance](#performance)
 7. [Collaboration](#collaboration)
 8. [Security](#security)
 9. [Testing](#testing)
@@ -14,14 +14,14 @@
 
 ## Introduction
 
-Following best practices in Jupyter notebooks ensures maintainable, reproducible, and collaborative data science workflows. This guide covers essential practices for professional notebook development.
+Following best practices in Jupyter notebooks ensures maintainable, reproducible, and collaborative data science workflows.
 
 ### Key Principles
-- **Reproducibility**: Notebooks should produce consistent results
-- **Maintainability**: Code should be clean, well-documented, and organized
-- **Collaboration**: Notebooks should be easy for others to understand and use
+- **Reproducibility**: Consistent results across environments
+- **Maintainability**: Clean, well-documented, organized code
+- **Collaboration**: Easy for others to understand and use
 - **Performance**: Efficient code execution and resource management
-- **Security**: Safe handling of sensitive data and credentials
+- **Security**: Safe handling of sensitive data
 
 ## Notebook Organization
 
@@ -40,9 +40,6 @@ Brief description of the project, objectives, and methodology.
 ## Author
 Your name and contact information.
 
-## Date
-Last updated: [Date]
-
 ## Dependencies
 List of key packages and versions used.
 """
@@ -55,14 +52,11 @@ import seaborn as sns
 
 # Configure plotting
 plt.style.use('seaborn-v0_8')
-sns.set_palette("husl")
 %matplotlib inline
 
 # 3. Data Loading (Code + Markdown)
-# Load and examine data
 df = pd.read_csv('data.csv')
 print(f"Dataset shape: {df.shape}")
-print(f"Columns: {list(df.columns)}")
 
 # 4. Data Exploration (Code + Markdown)
 # Explore data structure and quality
@@ -165,7 +159,7 @@ def calculate_engagement_score(frequency, duration, weights=(0.6, 0.4)):
     return frequency * weights[0] + duration * weights[1]
 
 # 3. Use type hints (Python 3.6+)
-from typing import List, Dict, Optional, Union
+from typing import List, Dict, Optional
 
 def process_data(data: List[Dict]) -> Optional[pd.DataFrame]:
     """Process list of dictionaries into DataFrame."""
@@ -521,7 +515,7 @@ git commit -m "test(model): add unit tests for model evaluation"
 git commit -m "chore(deps): update pandas to version 1.5.0"
 ```
 
-## Performance Optimization
+## Performance
 
 ### Memory Management
 
