@@ -1,5 +1,13 @@
 # Plotly Basics: Complete Guide
 
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![Plotly](https://img.shields.io/badge/Plotly-5.0+-purple.svg)](https://plotly.com/python/)
+[![Dash](https://img.shields.io/badge/Dash-2.0+-blue.svg)](https://dash.plotly.com/)
+[![NumPy](https://img.shields.io/badge/NumPy-1.24+-blue.svg)](https://numpy.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-2.0+-blue.svg)](https://pandas.pydata.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](../LICENSE)
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Plotly Architecture](#plotly-architecture)
