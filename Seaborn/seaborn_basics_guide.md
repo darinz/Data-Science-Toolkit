@@ -570,7 +570,7 @@ sns.scatterplot(x=np.random.randn(100), y=np.random.randn(100), ax=axes[1])
 axes[1].set_title('Relationship')
 
 # Plot 3
-sns.boxplot(data=df_test, x='group', y='value', ax=axes[2])
+sns.boxplot(data=df_compare, x='group', y='value', ax=axes[2])
 axes[2].set_title('Comparison')
 
 plt.tight_layout()
