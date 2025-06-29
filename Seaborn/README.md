@@ -1,5 +1,14 @@
 # Seaborn Tutorials
 
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![Seaborn](https://img.shields.io/badge/Seaborn-0.12+-orange.svg)](https://seaborn.pydata.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.7+-blue.svg)](https://matplotlib.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-2.0+-blue.svg)](https://pandas.pydata.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-1.24+-blue.svg)](https://numpy.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
+[![Conda](https://img.shields.io/badge/Conda-Environment-green.svg)](https://docs.conda.io/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](../LICENSE)
+
 A comprehensive guide to Seaborn, the statistical data visualization library built on top of Matplotlib, covering beautiful and informative statistical graphics.
 
 ## What's Included
