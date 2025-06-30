@@ -1,5 +1,14 @@
 # Computer Vision Guide
 
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
+[![Level](https://img.shields.io/badge/Level-Advanced-red.svg)](https://github.com/yourusername/Toolkit)
+[![OpenCV](https://img.shields.io/badge/OpenCV-4.5%2B-green.svg)](https://opencv.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.8%2B-orange.svg)](https://www.tensorflow.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-1.12%2B-red.svg)](https://pytorch.org/)
+[![PIL](https://img.shields.io/badge/PIL-8.0%2B-blue.svg)](https://pillow.readthedocs.io/)
+[![Topics](https://img.shields.io/badge/Topics-Computer%20Vision%2C%20Image%20Processing%2C%20CNN-orange.svg)](https://github.com/yourusername/Toolkit)
+[![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)](https://github.com/yourusername/Toolkit)
+
 A comprehensive guide to computer vision techniques and applications using Python for AI/ML projects.
 
 ## Table of Contents
