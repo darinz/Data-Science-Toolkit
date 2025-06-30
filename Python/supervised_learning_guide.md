@@ -1,5 +1,13 @@
 # Supervised Learning Guide
 
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
+[![Level](https://img.shields.io/badge/Level-Intermediate-yellow.svg)](https://github.com/yourusername/Toolkit)
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.0%2B-orange.svg)](https://scikit-learn.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-1.21%2B-orange.svg)](https://numpy.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-1.3%2B-blue.svg)](https://pandas.pydata.org/)
+[![Topics](https://img.shields.io/badge/Topics-Classification%2C%20Regression%2C%20ML-orange.svg)](https://github.com/yourusername/Toolkit)
+[![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)](https://github.com/yourusername/Toolkit)
+
 A comprehensive guide to supervised learning algorithms and techniques in Python for machine learning applications.
 
 ## Table of Contents
