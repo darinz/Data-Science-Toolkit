@@ -1,5 +1,10 @@
 # Python Basics for Data Science
 
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
+[![Level](https://img.shields.io/badge/Level-Beginner-green.svg)](https://github.com/yourusername/Toolkit)
+[![Topics](https://img.shields.io/badge/Topics-Basics%2C%20Data%20Types%2C%20Control%20Flow-orange.svg)](https://github.com/yourusername/Toolkit)
+[![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)](https://github.com/yourusername/Toolkit)
+
 A comprehensive guide to essential Python concepts for AI/ML and data science applications.
 
 ## Table of Contents
