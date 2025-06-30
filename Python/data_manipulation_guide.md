@@ -1,5 +1,12 @@
 # Data Manipulation Guide
 
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
+[![Level](https://img.shields.io/badge/Level-Intermediate-yellow.svg)](https://github.com/yourusername/Toolkit)
+[![Pandas](https://img.shields.io/badge/Pandas-1.3%2B-blue.svg)](https://pandas.pydata.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-1.21%2B-orange.svg)](https://numpy.org/)
+[![Topics](https://img.shields.io/badge/Topics-Data%20Processing%2C%20ETL%2C%20Cleaning-orange.svg)](https://github.com/yourusername/Toolkit)
+[![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)](https://github.com/yourusername/Toolkit)
+
 A comprehensive guide to data manipulation techniques in Python for AI/ML and data science applications.
 
 ## Table of Contents
