@@ -18,6 +18,7 @@ A comprehensive collection of toolkits for essential AI/ML and Data Science libr
 ## What's Included
 
 ### Core Data Science Libraries
+- **[Python Tutorials](./Python/)** - Python fundamentals, data science, and AI/ML applications (Markdown guides)
 - **[NumPy Tutorials](./NumPy/)** - Scientific computing fundamentals and array operations (Markdown guides + Jupyter notebooks)
 - **[pandas Tutorials](./pandas/)** - Data manipulation, analysis, and DataFrame operations (Markdown guides + Jupyter notebooks)
 - **[Matplotlib Tutorials](./Matplotlib/)** - Data visualization and plotting fundamentals (Markdown guides)
@@ -78,6 +79,11 @@ pip install -r requirements.txt
 
 ## Tutorial Structure
 
+### Python Module
+- **Files:** `python_basics_guide.md`, `data_manipulation_guide.md`, `neural_networks_guide.md`, `nlp_guide.md`, `supervised_learning_guide.md`, `computer_vision_guide.md`
+- **Dependencies:** Python, NumPy, pandas, scikit-learn, TensorFlow, PyTorch, JupyterLab
+- **Focus:** Python fundamentals, data science, and AI/ML applications
+
 ### NumPy Module
 - **Files:** `numpy_basics_guide.md`, `advanced_indexing_guide.md`, `linear_algebra_guide.md`, `random_generation_guide.md`, `array_manipulation_guide.md`, `numpy_ultraquick_tutorial.ipynb`, `random_generation.py`
 - **Dependencies:** NumPy, pandas, JupyterLab
@@ -131,10 +137,11 @@ pip install -r requirements.txt
 ## Learning Path
 
 ### Beginner Path
-1. **Start with NumPy** - Build your foundation in scientific computing
-2. **Move to pandas** - Learn data manipulation and analysis
-3. **Explore Matplotlib** - Master data visualization
-4. **Learn Jupyter** - Understand interactive computing workflows
+1. **Start with Python** - Build your foundation in Python programming for data science
+2. **Move to NumPy** - Learn scientific computing fundamentals
+3. **Advance to pandas** - Master data manipulation and analysis
+4. **Explore Matplotlib** - Learn data visualization
+5. **Learn Jupyter** - Understand interactive computing workflows
 
 ### Machine Learning Path
 1. **Begin with scikit-learn** - Learn machine learning fundamentals
