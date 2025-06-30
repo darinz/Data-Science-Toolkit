@@ -1,3 +1,14 @@
+# Neural Networks Guide
+
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
+[![Level](https://img.shields.io/badge/Level-Advanced-red.svg)](https://github.com/yourusername/Toolkit)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.8%2B-orange.svg)](https://www.tensorflow.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-1.12%2B-red.svg)](https://pytorch.org/)
+[![Keras](https://img.shields.io/badge/Keras-2.8%2B-red.svg)](https://keras.io/)
+[![NumPy](https://img.shields.io/badge/NumPy-1.21%2B-orange.svg)](https://numpy.org/)
+[![Topics](https://img.shields.io/badge/Topics-Neural%20Networks%2C%20Deep%20Learning%2C%20AI-orange.svg)](https://github.com/yourusername/Toolkit)
+[![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)](https://github.com/yourusername/Toolkit)
+
 # Neural Networks Fundamentals
 
 A comprehensive guide to building and training neural networks in Python for deep learning applications.
