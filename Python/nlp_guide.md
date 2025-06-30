@@ -1,5 +1,15 @@
 # Natural Language Processing Guide
 
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
+[![Level](https://img.shields.io/badge/Level-Advanced-red.svg)](https://github.com/yourusername/Toolkit)
+[![NLTK](https://img.shields.io/badge/NLTK-3.7%2B-green.svg)](https://www.nltk.org/)
+[![spaCy](https://img.shields.io/badge/spaCy-3.4%2B-blue.svg)](https://spacy.io/)
+[![Transformers](https://img.shields.io/badge/Transformers-4.20%2B-orange.svg)](https://huggingface.co/transformers/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.8%2B-orange.svg)](https://www.tensorflow.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-1.12%2B-red.svg)](https://pytorch.org/)
+[![Topics](https://img.shields.io/badge/Topics-NLP%2C%20Text%20Processing%2C%20Language%20Models-orange.svg)](https://github.com/yourusername/Toolkit)
+[![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)](https://github.com/yourusername/Toolkit)
+
 A comprehensive guide to natural language processing techniques and applications using Python for AI/ML projects.
 
 ## Table of Contents
