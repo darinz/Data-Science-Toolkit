@@ -73,70 +73,70 @@ print(f"Plotly version: {plotly.__version__}")
 
 ## Tutorial Structure
 
-### 1. Plotly Basics (`plotly_basics_guide.md`)
+### 1. Plotly Basics (`01_plotly_basics_guide.md`)
 - Introduction to Plotly architecture
 - Basic plotting with Plotly Express
 - Graph Objects for advanced customization
 - Interactive features and tools
 - **Run with:** `python plotly_basics.py`
 
-### 2. Plot Types (`plot_types_guide.md`)
+### 2. Plot Types (`02_plot_types_guide.md`)
 - Line plots and scatter plots
 - Bar charts and histograms
 - Pie charts and area plots
 - Error bars and confidence intervals
 - Statistical plots and distributions
 
-### 3. Interactive Features (`interactive_features_guide.md`)
+### 3. Interactive Features (`03_interactive_features_guide.md`)
 - Zoom, pan, and selection tools
 - Hover information and annotations
 - Click events and callbacks
 - Range sliders and buttons
 - Animation and transitions
 
-### 4. Customization (`customization_guide.md`)
+### 4. Customization (`04_customization_guide.md`)
 - Colors, themes, and styles
 - Layouts and templates
 - Annotations and shapes
 - Legends and axes customization
 - Responsive design
 
-### 5. Subplots and Layouts (`subplots_layout_guide.md`)
+### 5. Subplots and Layouts (`05_subplots_layout_guide.md`)
 - Creating subplots
 - Complex layouts with make_subplots
 - Shared axes and ranges
 - Figure composition
 - Multi-panel dashboards
 
-### 6. 3D Visualization (`3d_visualization_guide.md`)
+### 6. 3D Visualization (`06_3d_visualization_guide.md`)
 - 3D scatter plots
 - Surface plots and wireframes
 - Contour plots and heatmaps
 - 3D customization and interaction
 - Scientific 3D plotting
 
-### 7. Geographic Visualization (`geographic_visualization_guide.md`)
+### 7. Geographic Visualization (`07_geographic_visualization_guide.md`)
 - Choropleth maps
 - Scattergeo plots
 - Map projections and styling
 - Geographic data handling
 - Interactive maps
 
-### 8. Statistical Visualization (`statistical_visualization_guide.md`)
+### 8. Statistical Visualization (`08_statistical_visualization_guide.md`)
 - Box plots and violin plots
 - Histograms and density plots
 - Correlation matrices
 - Statistical annotations
 - Distribution analysis
 
-### 9. Advanced Features (`advanced_features_guide.md`)
+### 9. Advanced Features (`09_advanced_features_guide.md`)
 - Custom traces and shapes
 - Animation and transitions
 - Real-time data updates
 - Performance optimization
 - Integration with other libraries
 
-### 10. Dash Applications (`dash_applications_guide.md`)
+### 10. Dash Applications (`10_dash_applications_guide.md`)
 - Building web applications
 - Layout and components
 - Callbacks and interactivity
