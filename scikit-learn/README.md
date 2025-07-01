@@ -66,12 +66,12 @@ print(f"scikit-learn version: {sklearn.__version__}")
 
 ```
 scikit-learn/
-├── ml_basics_guide.md                 # Machine learning fundamentals
-├── supervised_learning_guide.md       # Classification and regression
-├── unsupervised_learning_guide.md     # Clustering and dimensionality reduction
-├── feature_engineering_guide.md       # Data preprocessing and feature engineering
-├── model_selection_guide.md           # Model evaluation and selection
-├── real_world_applications_guide.md   # Practical applications and case studies
+├── 01_ml_basics_guide.md                 # Machine learning fundamentals
+├── 02_supervised_learning_guide.md       # Classification and regression
+├── 03_unsupervised_learning_guide.md     # Clustering and dimensionality reduction
+├── 04_feature_engineering_guide.md       # Data preprocessing and feature engineering
+├── 05_model_selection_guide.md           # Model evaluation and selection
+├── 06_real_world_applications_guide.md   # Practical applications and case studies
 ├── environment.yml                    # Conda environment configuration
 ├── requirements.txt                   # pip dependencies
 └── README.md                          # This file
@@ -79,48 +79,48 @@ scikit-learn/
 
 ## Tutorial Structure
 
-### 1. Machine Learning Basics (`ml_basics_guide.md`)
+### 1. Machine Learning Basics (`01_ml_basics_guide.md`)
 - Understanding supervised vs unsupervised learning
 - Train-test split and cross-validation
 - Model evaluation metrics
 - Overfitting and underfitting
 - Bias-variance tradeoff
-- **Read:** `ml_basics_guide.md`
+- **Read:** `01_ml_basics_guide.md`
 
-### 2. Supervised Learning (`supervised_learning_guide.md`)
+### 2. Supervised Learning (`02_supervised_learning_guide.md`)
 - Classification algorithms (Logistic Regression, SVM, Random Forest)
 - Regression algorithms (Linear Regression, Ridge, Lasso)
 - Model evaluation and comparison
 - Feature importance analysis
-- **Read:** `supervised_learning_guide.md`
+- **Read:** `02_supervised_learning_guide.md`
 
-### 3. Unsupervised Learning (`unsupervised_learning_guide.md`)
+### 3. Unsupervised Learning (`03_unsupervised_learning_guide.md`)
 - Clustering algorithms (K-Means, DBSCAN)
 - Dimensionality reduction (PCA, t-SNE)
 - Association rule learning
 - Anomaly detection
-- **Read:** `unsupervised_learning_guide.md`
+- **Read:** `03_unsupervised_learning_guide.md`
 
-### 4. Feature Engineering (`feature_engineering_guide.md`)
+### 4. Feature Engineering (`04_feature_engineering_guide.md`)
 - Data preprocessing techniques
 - Feature scaling and normalization
 - Handling categorical variables
 - Feature selection methods
-- **Read:** `feature_engineering_guide.md`
+- **Read:** `04_feature_engineering_guide.md`
 
-### 5. Model Selection and Tuning (`model_selection_guide.md`)
+### 5. Model Selection and Tuning (`05_model_selection_guide.md`)
 - Cross-validation strategies
 - Hyperparameter tuning (Grid Search, Random Search)
 - Model comparison and selection
 - Ensemble methods
-- **Read:** `model_selection_guide.md`
+- **Read:** `05_model_selection_guide.md`
 
-### 6. Real-world Applications (`real_world_applications_guide.md`)
+### 6. Real-world Applications (`06_real_world_applications_guide.md`)
 - Customer segmentation
 - Predictive maintenance
 - Sentiment analysis
 - Recommendation systems
-- **Read:** `real_world_applications_guide.md`
+- **Read:** `06_real_world_applications_guide.md`
 
 ## Running the Tutorials
 
@@ -130,12 +130,12 @@ All tutorials are provided as comprehensive markdown guides:
 ```bash
 # Read guides in your preferred markdown viewer
 # Or open them in Jupyter Lab/Notebook for better formatting
-jupyter lab ml_basics_guide.md
-jupyter lab supervised_learning_guide.md
-jupyter lab unsupervised_learning_guide.md
-jupyter lab feature_engineering_guide.md
-jupyter lab model_selection_guide.md
-jupyter lab real_world_applications_guide.md
+jupyter lab 01_ml_basics_guide.md
+jupyter lab 02_supervised_learning_guide.md
+jupyter lab 03_unsupervised_learning_guide.md
+jupyter lab 04_feature_engineering_guide.md
+jupyter lab 05_model_selection_guide.md
+jupyter lab 06_real_world_applications_guide.md
 ```
 
 ### Interactive Learning
