@@ -66,14 +66,14 @@ print(f"Matplotlib version: {matplotlib.__version__}")
 
 ```
 Matplotlib/
-├── matplotlib_basics_guide.md        # Comprehensive basics tutorial
-├── plot_types_guide.md               # Different plot types and examples
-├── customization_guide.md            # Colors, styles, and customization
-├── subplots_layout_guide.md          # Multi-panel figures and layouts
-├── statistical_plots_guide.md        # Statistical visualization
-├── 3d_plotting_guide.md              # 3D plotting and visualization
-├── advanced_features_guide.md        # Advanced features and techniques
-├── publication_quality_guide.md      # Publication-ready figures
+├── 01_matplotlib_basics_guide.md     # Comprehensive basics tutorial
+├── 02_plot_types_guide.md            # Different plot types and examples
+├── 03_customization_guide.md         # Colors, styles, and customization
+├── 04_subplots_layout_guide.md       # Multi-panel figures and layouts
+├── 05_statistical_plots_guide.md     # Statistical visualization
+├── 06_3d_plotting_guide.md           # 3D plotting and visualization
+├── 07_advanced_features_guide.md     # Advanced features and techniques
+├── 08_publication_quality_guide.md   # Publication-ready figures
 ├── environment.yml                   # Conda environment configuration
 ├── requirements.txt                  # pip dependencies
 └── README.md                         # This file
@@ -81,56 +81,56 @@ Matplotlib/
 
 ## Tutorial Structure
 
-### 1. Matplotlib Basics (`matplotlib_basics_guide.md`)
+### 1. Matplotlib Basics (`01_matplotlib_basics_guide.md`)
 - Introduction to Matplotlib architecture
 - Basic plotting functions and syntax
 - Figure and axes objects
 - Customizing plot appearance
-- **Read:** `matplotlib_basics_guide.md`
+- **Read:** `01_matplotlib_basics_guide.md`
 
-### 2. Plot Types (`plot_types_guide.md`)
+### 2. Plot Types (`02_plot_types_guide.md`)
 - Line plots and scatter plots
 - Bar charts and histograms
 - Pie charts and area plots
 - Error bars and confidence intervals
 - Statistical plots and distributions
 
-### 3. Customization (`customization_guide.md`)
+### 3. Customization (`03_customization_guide.md`)
 - Colors, markers, and line styles
 - Labels, titles, and legends
 - Grids and spines
 - Text annotations and arrows
 - Themes and style sheets
 
-### 4. Subplots and Layout (`subplots_layout_guide.md`)
+### 4. Subplots and Layout (`04_subplots_layout_guide.md`)
 - Creating subplots
 - GridSpec for complex layouts
 - Sharing axes and ranges
 - Figure size and DPI settings
 - Multi-panel dashboards
 
-### 5. Statistical Visualization (`statistical_plots_guide.md`)
+### 5. Statistical Visualization (`05_statistical_plots_guide.md`)
 - Box plots and violin plots
 - Histograms and density plots
 - Heatmaps and correlation matrices
 - Statistical annotations
 - Distribution analysis
 
-### 6. 3D Plotting (`3d_plotting_guide.md`)
+### 6. 3D Plotting (`06_3d_plotting_guide.md`)
 - 3D scatter plots
 - Surface plots and wireframes
 - Contour plots
 - 3D customization and interaction
 - Scientific 3D plotting
 
-### 7. Advanced Features (`advanced_features_guide.md`)
+### 7. Advanced Features (`07_advanced_features_guide.md`)
 - Interactive plots
 - Animations and transitions
 - Custom projections
 - Geographic plotting
 - Performance optimization
 
-### 8. Publication Quality (`publication_quality_guide.md`)
+### 8. Publication Quality (`08_publication_quality_guide.md`)
 - High-resolution output
 - LaTeX integration
 - Style sheets and themes
@@ -148,7 +148,7 @@ Matplotlib/
 ### Sequential Learning
 ```bash
 # Read guides in order for comprehensive learning
-# Start with matplotlib_basics_guide.md
+# Start with 01_matplotlib_basics_guide.md
 # Then proceed through each guide sequentially
 ```
 
@@ -195,16 +195,16 @@ pip install -r requirements.txt
 ## Learning Path
 
 ### Beginner Path
-1. **Start with Matplotlib Basics** - Read the basics guide to understand the fundamentals
-2. **Learn Plot Types** - Master different visualization types
-3. **Customize Your Plots** - Make them look professional
-4. **Create Complex Layouts** - Build multi-panel figures
+1. **Start with Matplotlib Basics** - Read `01_matplotlib_basics_guide.md` to understand the fundamentals
+2. **Learn Plot Types** - Master different visualization types with `02_plot_types_guide.md`
+3. **Customize Your Plots** - Make them look professional with `03_customization_guide.md`
+4. **Create Complex Layouts** - Build multi-panel figures with `04_subplots_layout_guide.md`
 
 ### Intermediate Path
-1. **Explore Statistical Plots** - Visualize data distributions
-2. **Dive into 3D Plotting** - Add dimensionality to your visualizations
-3. **Master Advanced Features** - Create interactive and animated plots
-4. **Produce Publication Quality** - Create figures for papers and presentations
+1. **Explore Statistical Plots** - Visualize data distributions with `05_statistical_plots_guide.md`
+2. **Dive into 3D Plotting** - Add dimensionality to your visualizations with `06_3d_plotting_guide.md`
+3. **Master Advanced Features** - Create interactive and animated plots with `07_advanced_features_guide.md`
+4. **Produce Publication Quality** - Create figures for papers and presentations with `08_publication_quality_guide.md`
 
 ### Advanced Path
 1. **Custom Animations** - Create dynamic visualizations
