@@ -70,10 +70,10 @@ jupyter lab
 ```
 pandas/
 ├── pandas_df_ultraquick_tutorial.ipynb  # Main tutorial notebook
-├── pandas_basics_guide.md               # Comprehensive pandas basics guide
-├── data_analysis_guide.md               # Data analysis techniques guide
-├── data_visualization_guide.md          # Data visualization guide
-├── time_series_guide.md                 # Time series analysis guide
+├── 01_pandas_basics_guide.md            # Comprehensive pandas basics guide
+├── 02_data_analysis_guide.md            # Data analysis techniques guide
+├── 03_data_visualization_guide.md       # Data visualization guide
+├── 04_time_series_guide.md              # Time series analysis guide
 ├── environment.yml                      # Conda environment configuration
 ├── requirements.txt                     # pip dependencies
 ├── .gitattributes                      # Git attributes file
@@ -81,6 +81,14 @@ pandas/
 ```
 
 ## Tutorial Content
+
+### Recommended Learning Order
+The guides are numbered to suggest the optimal learning sequence:
+
+1. **01_pandas_basics_guide.md** - Start here to learn fundamental pandas concepts
+2. **02_data_analysis_guide.md** - Build on basics with advanced analysis techniques  
+3. **03_data_visualization_guide.md** - Learn to visualize your data effectively
+4. **04_time_series_guide.md** - Master time-based data analysis
 
 ### pandas_df_ultraquick_tutorial.ipynb
 The main interactive notebook covering:
@@ -93,28 +101,28 @@ The main interactive notebook covering:
 - Time series analysis
 - Basic visualization
 
-### pandas_basics_guide.md
+### 01_pandas_basics_guide.md
 Comprehensive guide covering:
 - Introduction to pandas data structures
 - Basic operations and methods
 - Data manipulation techniques
 - Common pandas patterns and best practices
 
-### data_analysis_guide.md
+### 02_data_analysis_guide.md
 Advanced data analysis techniques:
 - Exploratory data analysis (EDA)
 - Statistical analysis with pandas
 - Data transformation and feature engineering
 - Performance optimization techniques
 
-### data_visualization_guide.md
+### 03_data_visualization_guide.md
 Data visualization with pandas:
 - Basic plotting capabilities
 - Statistical plots and charts
 - Customizing visualizations
 - Integration with Matplotlib and Seaborn
 
-### time_series_guide.md
+### 04_time_series_guide.md
 Time series analysis:
 - Date and time handling
 - Time-based indexing and operations
