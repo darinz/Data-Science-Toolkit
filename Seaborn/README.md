@@ -66,50 +66,50 @@ print(f"Seaborn version: {sns.__version__}")
 
 ## Tutorial Structure
 
-### 1. Seaborn Basics (`seaborn_basics_guide.md`)
+### 1. Seaborn Basics (`01_seaborn_basics_guide.md`)
 - Introduction to Seaborn and its philosophy
 - Basic plotting functions and syntax
 - Figure aesthetics and styling
 - Integration with pandas DataFrames
 - **Run with:** `python seaborn_basics.py`
 
-### 2. Statistical Plots (`statistical_plots_guide.md`)
+### 2. Statistical Plots (`02_statistical_plots_guide.md`)
 - Distribution plots (histogram, KDE, rug)
 - Regression plots and trend analysis
 - Residual plots and model diagnostics
 - Statistical annotations and significance
 
-### 3. Categorical Plots (`categorical_plots_guide.md`)
+### 3. Categorical Plots (`03_categorical_plots_guide.md`)
 - Bar plots and count plots
 - Box plots and violin plots
 - Point plots and factor plots
 - Swarm plots and strip plots
 
-### 4. Distribution Analysis (`distribution_analysis_guide.md`)
+### 4. Distribution Analysis (`04_distribution_analysis_guide.md`)
 - Univariate and bivariate distributions
 - Joint plots and pair plots
 - Marginal distributions
 - Distribution comparisons
 
-### 5. Correlation Analysis (`correlation_analysis_guide.md`)
+### 5. Correlation Analysis (`05_correlation_analysis_guide.md`)
 - Correlation matrices and heatmaps
 - Pair plots for relationship discovery
 - Clustermaps for hierarchical clustering
 - Correlation significance testing
 
-### 6. Multi-Plot Grids (`multi_plot_grids_guide.md`)
+### 6. Multi-Plot Grids (`06_multi_plot_grids_guide.md`)
 - FacetGrid for conditional plotting
 - PairGrid for pairwise relationships
 - JointGrid for joint distributions
 - Complex multi-panel layouts
 
-### 7. Advanced Features (`advanced_features_guide.md`)
+### 7. Advanced Features (`07_advanced_features_guide.md`)
 - Custom color palettes and themes
 - Statistical annotations and significance
 - Integration with statistical libraries
 - Publication-quality output
 
-### 8. Real-World Applications (`real_world_applications_guide.md`)
+### 8. Real-World Applications (`08_real_world_applications_guide.md`)
 - Data science workflow integration
 - Model evaluation and comparison
 - Business intelligence dashboards
