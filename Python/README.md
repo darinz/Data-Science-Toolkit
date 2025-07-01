@@ -34,28 +34,28 @@ jupyter lab
 ## Guide Categories
 
 ### Core Python Skills
-- [Python Basics for Data Science](python_basics_guide.md) - Essential Python concepts for data science
-- [Object-Oriented Programming](oop_guide.md) - Classes, inheritance, and design patterns
-- [Functional Programming](functional_programming_guide.md) - Lambda functions, decorators, and functional concepts
-- [Python Best Practices](python_best_practices_guide.md) - Code quality, testing, and optimization
+- [Python Basics for Data Science](01_python_basics_guide.md) - Essential Python concepts for data science
+- [Object-Oriented Programming](02_oop_guide.md) - Classes, inheritance, and design patterns
+- [Functional Programming](03_functional_programming_guide.md) - Lambda functions, decorators, and functional concepts
+- [Python Best Practices](04_python_best_practices_guide.md) - Code quality, testing, and optimization
 
 ### Data Science Fundamentals
-- [Data Manipulation](data_manipulation_guide.md) - Working with different data formats and structures
-- [Data Cleaning and Preprocessing](data_cleaning_guide.md) - Handling missing data, outliers, and data quality
-- [Exploratory Data Analysis](eda_guide.md) - Statistical analysis and data exploration techniques
-- [Feature Engineering](feature_engineering_guide.md) - Creating and selecting features for ML models
+- [Data Manipulation](05_data_manipulation_guide.md) - Working with different data formats and structures
+- [Data Cleaning and Preprocessing](06_data_cleaning_guide.md) - Handling missing data, outliers, and data quality
+- [Exploratory Data Analysis](07_eda_guide.md) - Statistical analysis and data exploration techniques
+- [Feature Engineering](08_feature_engineering_guide.md) - Creating and selecting features for ML models
 
 ### Machine Learning
-- [Supervised Learning](supervised_learning_guide.md) - Classification and regression algorithms
-- [Unsupervised Learning](unsupervised_learning_guide.md) - Clustering and dimensionality reduction
-- [Model Evaluation](model_evaluation_guide.md) - Metrics, validation, and model selection
-- [Hyperparameter Tuning](hyperparameter_tuning_guide.md) - Grid search, random search, and Bayesian optimization
+- [Supervised Learning](09_supervised_learning_guide.md) - Classification and regression algorithms
+- [Unsupervised Learning](10_unsupervised_learning_guide.md) - Clustering and dimensionality reduction
+- [Model Evaluation](11_model_evaluation_guide.md) - Metrics, validation, and model selection
+- [Hyperparameter Tuning](12_hyperparameter_tuning_guide.md) - Grid search, random search, and Bayesian optimization
 
 ### Deep Learning
-- [Neural Networks Fundamentals](neural_networks_guide.md) - Building and training neural networks
-- [Computer Vision](computer_vision_guide.md) - Image processing and CNN applications
-- [Natural Language Processing](nlp_guide.md) - Text processing and language models
-- [Reinforcement Learning](reinforcement_learning_guide.md) - Q-learning, policy gradients, and RL frameworks
+- [Neural Networks Fundamentals](13_neural_networks_guide.md) - Building and training neural networks
+- [Computer Vision](14_computer_vision_guide.md) - Image processing and CNN applications
+- [Natural Language Processing](15_nlp_guide.md) - Text processing and language models
+- [Reinforcement Learning](16_reinforcement_learning_guide.md) - Q-learning, policy gradients, and RL frameworks
 
 ### Advanced Topics
 - [Time Series Analysis](time_series_guide.md) - Forecasting and temporal data analysis
@@ -106,22 +106,22 @@ Python/
 ├── environment.yml          # Conda environment
 ├── requirements.txt         # Pip requirements
 ├── README.md               # This file
-├── python_basics_guide.md  # Python fundamentals
-├── oop_guide.md           # Object-oriented programming
-├── functional_programming_guide.md
-├── python_best_practices_guide.md
-├── data_manipulation_guide.md
-├── data_cleaning_guide.md
-├── eda_guide.md
-├── feature_engineering_guide.md
-├── supervised_learning_guide.md
-├── unsupervised_learning_guide.md
-├── model_evaluation_guide.md
-├── hyperparameter_tuning_guide.md
-├── neural_networks_guide.md
-├── computer_vision_guide.md
-├── nlp_guide.md
-├── reinforcement_learning_guide.md
+├── 01_python_basics_guide.md  # Python fundamentals
+├── 02_oop_guide.md           # Object-oriented programming
+├── 03_functional_programming_guide.md
+├── 04_python_best_practices_guide.md
+├── 05_data_manipulation_guide.md
+├── 06_data_cleaning_guide.md
+├── 07_eda_guide.md
+├── 08_feature_engineering_guide.md
+├── 09_supervised_learning_guide.md
+├── 10_unsupervised_learning_guide.md
+├── 11_model_evaluation_guide.md
+├── 12_hyperparameter_tuning_guide.md
+├── 13_neural_networks_guide.md
+├── 14_computer_vision_guide.md
+├── 15_nlp_guide.md
+├── 16_reinforcement_learning_guide.md
 ├── time_series_guide.md
 ├── big_data_guide.md
 ├── model_deployment_guide.md
