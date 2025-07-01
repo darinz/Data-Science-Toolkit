@@ -61,21 +61,21 @@ python random_generation.py
 
 ```
 NumPy/
-├── numpy_basics_guide.md         # Essential array operations and concepts
-├── advanced_indexing_guide.md    # Boolean indexing, fancy indexing, masking
-├── linear_algebra_guide.md       # Matrix operations, decompositions, eigenvalues
-├── random_generation_guide.md    # Probability distributions, sampling, Monte Carlo
-├── array_manipulation_guide.md   # Reshaping, concatenation, splitting, broadcasting
-├── random_generation.py          # Python script for random generation examples
+├── 01_numpy_basics_guide.md         # Essential array operations and concepts
+├── 02_array_manipulation_guide.md   # Reshaping, concatenation, splitting, broadcasting
+├── 03_advanced_indexing_guide.md    # Boolean indexing, fancy indexing, masking
+├── 04_linear_algebra_guide.md       # Matrix operations, decompositions, eigenvalues
+├── 05_random_generation_guide.md    # Probability distributions, sampling, Monte Carlo
+├── random_generation.py             # Python script for random generation examples
 ├── numpy_ultraquick_tutorial.ipynb  # Original notebook (for reference)
-├── environment.yml               # Conda environment configuration
-├── requirements.txt              # pip dependencies
-└── README.md                     # This file
+├── environment.yml                  # Conda environment configuration
+├── requirements.txt                 # pip dependencies
+└── README.md                        # This file
 ```
 
 ## Tutorial Guides
 
-### 1. `numpy_basics_guide.md` - Essential Array Operations
+### 1. `01_numpy_basics_guide.md` - Essential Array Operations
 **Comprehensive coverage of fundamental NumPy concepts:**
 - Introduction to NumPy arrays and their properties
 - Array creation methods (from lists, functions, sequences)
@@ -86,7 +86,17 @@ NumPy/
 - Shape manipulation and transposition
 - Practical examples and applications
 
-### 2. `advanced_indexing_guide.md` - Advanced Array Access
+### 2. `02_array_manipulation_guide.md` - Reshaping and Advanced Operations
+**Advanced array manipulation techniques:**
+- Array reshaping and transposition
+- Concatenation and stacking operations
+- Splitting and chunking arrays
+- Broadcasting and array alignment
+- Advanced indexing and manipulation
+- Memory layout and performance optimization
+- Practical applications and real-world examples
+
+### 3. `03_advanced_indexing_guide.md` - Advanced Array Access
 **Master complex array indexing and filtering:**
 - Boolean indexing and masking techniques
 - Fancy indexing with integer arrays
@@ -96,7 +106,7 @@ NumPy/
 - Complex filtering and data selection
 - Real-world applications and examples
 
-### 3. `linear_algebra_guide.md` - Matrix Operations and Decompositions
+### 4. `04_linear_algebra_guide.md` - Matrix Operations and Decompositions
 **Comprehensive linear algebra with NumPy:**
 - Matrix creation and basic operations
 - Matrix multiplication and properties
@@ -107,7 +117,7 @@ NumPy/
 - Applications in data science and machine learning
 - Performance and numerical considerations
 
-### 4. `random_generation_guide.md` - Probability Distributions and Sampling
+### 5. `05_random_generation_guide.md` - Probability Distributions and Sampling
 **Statistical random generation and sampling:**
 - Random number generation basics and reproducibility
 - Probability distributions (uniform, normal, exponential, etc.)
@@ -116,16 +126,6 @@ NumPy/
 - Monte Carlo simulations and estimation
 - Applications in data science and machine learning
 - Best practices for reliable random generation
-
-### 5. `array_manipulation_guide.md` - Reshaping and Advanced Operations
-**Advanced array manipulation techniques:**
-- Array reshaping and transposition
-- Concatenation and stacking operations
-- Splitting and chunking arrays
-- Broadcasting and array alignment
-- Advanced indexing and manipulation
-- Memory layout and performance optimization
-- Practical applications and real-world examples
 
 ## Python Scripts
 
@@ -145,10 +145,10 @@ Open any markdown guide file in your preferred markdown viewer or text editor:
 
 ```bash
 # View guides in terminal
-cat numpy_basics_guide.md
+cat 01_numpy_basics_guide.md
 
 # Open in text editor
-code numpy_basics_guide.md
+code 01_numpy_basics_guide.md
 ```
 
 ### Running Python Scripts
@@ -210,13 +210,13 @@ pip install -r requirements.txt
 ## Learning Path
 
 ### Beginner Path
-1. **Start with `numpy_basics_guide.md`** - Learn fundamental array operations
-2. **Practice with `array_manipulation_guide.md`** - Master reshaping and manipulation
-3. **Explore `advanced_indexing_guide.md`** - Understand complex array access
+1. **Start with `01_numpy_basics_guide.md`** - Learn fundamental array operations
+2. **Practice with `02_array_manipulation_guide.md`** - Master reshaping and manipulation
+3. **Explore `03_advanced_indexing_guide.md`** - Understand complex array access
 
 ### Advanced Path
-1. **Master `linear_algebra_guide.md`** - Learn matrix operations and decompositions
-2. **Study `random_generation_guide.md`** - Understand statistical sampling
+1. **Master `04_linear_algebra_guide.md`** - Learn matrix operations and decompositions
+2. **Study `05_random_generation_guide.md`** - Understand statistical sampling
 3. **Run `random_generation.py`** - Practice with interactive examples
 4. **Combine all techniques** - Apply NumPy to real-world problems
 
