@@ -12,20 +12,20 @@ A comprehensive collection of PyTorch deep learning tutorials designed to take y
 
 This repository contains a structured learning path through PyTorch fundamentals:
 
-### 1. [Tensor Operations](./Tensor/) 
-[![Tensor](https://img.shields.io/badge/Tensor-Operations-FF6B6B.svg)](./Tensor/)
+### 1. [Tensor Operations](./01_Tensor/) 
+[![Tensor](https://img.shields.io/badge/Tensor-Operations-FF6B6B.svg)](./01_Tensor/)
 Learn the fundamentals of PyTorch tensors - the building blocks of deep learning.
 
-### 2. [Autograd & Automatic Differentiation](./Autograd/)
-[![Autograd](https://img.shields.io/badge/Autograd-Differentiation-4ECDC4.svg)](./Autograd/)
+### 2. [Autograd & Automatic Differentiation](./02_Autograd/)
+[![Autograd](https://img.shields.io/badge/Autograd-Differentiation-4ECDC4.svg)](./02_Autograd/)
 Master PyTorch's automatic differentiation engine for training neural networks.
 
-### 3. [Neural Networks](./Neural-Networks/)
-[![Neural Networks](https://img.shields.io/badge/Neural-Networks-45B7D1.svg)](./Neural-Networks/)
+### 3. [Neural Networks](./03_Neural-Networks/)
+[![Neural Networks](https://img.shields.io/badge/Neural-Networks-45B7D1.svg)](./03_Neural-Networks/)
 Build and train neural networks using PyTorch's `torch.nn` module.
 
-### 4. [Image Classification](./Image-Classifier/)
-[![Image Classification](https://img.shields.io/badge/Image-Classification-96CEB4.svg)](./Image-Classifier/)
+### 4. [Image Classification](./04_Image-Classifier/)
+[![Image Classification](https://img.shields.io/badge/Image-Classification-96CEB4.svg)](./04_Image-Classifier/)
 Create a complete image classification system using CIFAR-10 dataset.
 
 ## Quick Start
@@ -44,7 +44,7 @@ git clone https://github.com/darinz/PyTorch.git
 cd PyTorch
 
 # Create environment for any tutorial
-cd Tensor  # or Autograd, Neural-Networks, Image-Classifier
+cd 01_Tensor  # or 02_Autograd, 03_Neural-Networks, 04_Image-Classifier
 conda env create -f environment.yml
 conda activate dl
 ```
@@ -84,10 +84,10 @@ conda env list
 
 | Tutorial | Description | Difficulty | Duration |
 |----------|-------------|------------|----------|
-| [Tensor](./Tensor/) | PyTorch tensor operations and manipulation | Beginner | 1-2 hours |
-| [Autograd](./Autograd/) | Automatic differentiation and gradients | Beginner | 2-3 hours |
-| [Neural Networks](./Neural-Networks/) | Building and training neural networks | Intermediate | 3-4 hours |
-| [Image Classification](./Image-Classifier/) | Complete image classification project | Intermediate | 4-5 hours |
+| [Tensor](./01_Tensor/) | PyTorch tensor operations and manipulation | Beginner | 1-2 hours |
+| [Autograd](./02_Autograd/) | Automatic differentiation and gradients | Beginner | 2-3 hours |
+| [Neural Networks](./03_Neural-Networks/) | Building and training neural networks | Intermediate | 3-4 hours |
+| [Image Classification](./04_Image-Classifier/) | Complete image classification project | Intermediate | 4-5 hours |
 
 ## What You'll Learn
 
