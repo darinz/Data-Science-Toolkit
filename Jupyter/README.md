@@ -15,13 +15,13 @@ A comprehensive guide to Jupyter notebooks, JupyterLab, and interactive computin
 ## What's Included
 
 ### Jupyter Fundamentals
-- **Jupyter Basics** (`jupyter_basics_guide.md`) - Creating, editing, and running interactive notebooks
-- **JupyterLab Interface** (`jupyterlab_interface_guide.md`) - Modern web-based interface for Jupyter
-- **Magic Commands** (`magic_commands_guide.md`) - Built-in commands for enhanced functionality
-- **Interactive Widgets** (`interactive_widgets_guide.md`) - Creating dynamic, interactive visualizations
-- **Best Practices** (`best_practices_guide.md`) - Writing clean, maintainable notebooks
-- **Advanced Features** (`advanced_features_guide.md`) - Multi-language kernels, parallel computing, database integration
-- **Deployment** (`deployment_guide.md`) - Running notebooks in production environments
+- **Jupyter Basics** (`01_jupyter_basics_guide.md`) - Creating, editing, and running interactive notebooks
+- **JupyterLab Interface** (`02_jupyterlab_interface_guide.md`) - Modern web-based interface for Jupyter
+- **Magic Commands** (`03_magic_commands_guide.md`) - Built-in commands for enhanced functionality
+- **Interactive Widgets** (`04_interactive_widgets_guide.md`) - Creating dynamic, interactive visualizations
+- **Best Practices** (`05_best_practices_guide.md`) - Writing clean, maintainable notebooks
+- **Advanced Features** (`06_advanced_features_guide.md`) - Multi-language kernels, parallel computing, database integration
+- **Deployment** (`07_deployment_guide.md`) - Running notebooks in production environments
 
 ### Data Science Workflow
 - **Data Exploration** - Interactive data analysis and visualization
@@ -70,13 +70,13 @@ jupyter lab --no-browser
 
 ```
 Jupyter/
-├── jupyter_basics_guide.md            # Jupyter fundamentals and basics
-├── jupyterlab_interface_guide.md      # JupyterLab interface tutorial
-├── magic_commands_guide.md            # Magic commands and IPython features
-├── interactive_widgets_guide.md       # Interactive widgets and visualizations
-├── best_practices_guide.md            # Best practices and guidelines
-├── advanced_features_guide.md         # Advanced features and techniques
-├── deployment_guide.md                # Production deployment guide
+├── 01_jupyter_basics_guide.md         # Jupyter fundamentals and basics
+├── 02_jupyterlab_interface_guide.md   # JupyterLab interface tutorial
+├── 03_magic_commands_guide.md         # Magic commands and IPython features
+├── 04_interactive_widgets_guide.md    # Interactive widgets and visualizations
+├── 05_best_practices_guide.md         # Best practices and guidelines
+├── 06_advanced_features_guide.md      # Advanced features and techniques
+├── 07_deployment_guide.md             # Production deployment guide
 ├── environment.yml                    # Conda environment configuration
 ├── requirements.txt                   # pip dependencies
 └── README.md                          # This file
@@ -84,7 +84,7 @@ Jupyter/
 
 ## Tutorial Structure
 
-### 1. Jupyter Basics (`jupyter_basics_guide.md`)
+### 1. Jupyter Basics (`01_jupyter_basics_guide.md`)
 - Introduction to Jupyter notebooks
 - Cell types and execution modes
 - Basic notebook operations
@@ -92,7 +92,7 @@ Jupyter/
 - Working with kernels
 - Markdown and documentation
 
-### 2. JupyterLab Interface (`jupyterlab_interface_guide.md`)
+### 2. JupyterLab Interface (`02_jupyterlab_interface_guide.md`)
 - JupyterLab vs Jupyter Notebook
 - File browser and workspace
 - Multiple notebooks and terminals
@@ -100,7 +100,7 @@ Jupyter/
 - Advanced interface features
 - Productivity tips and tricks
 
-### 3. Magic Commands (`magic_commands_guide.md`)
+### 3. Magic Commands (`03_magic_commands_guide.md`)
 - Line and cell magic commands
 - Built-in magic functions
 - Custom magic commands
@@ -108,7 +108,7 @@ Jupyter/
 - System integration
 - Advanced magic features
 
-### 4. Interactive Widgets (`interactive_widgets_guide.md`)
+### 4. Interactive Widgets (`04_interactive_widgets_guide.md`)
 - Creating interactive visualizations
 - Widget types and properties
 - Event handling and callbacks
@@ -116,7 +116,7 @@ Jupyter/
 - Custom widget development
 - Advanced widget features
 
-### 5. Best Practices (`best_practices_guide.md`)
+### 5. Best Practices (`05_best_practices_guide.md`)
 - Notebook organization and structure
 - Code quality and style
 - Documentation and markdown
@@ -124,7 +124,7 @@ Jupyter/
 - Performance optimization
 - Collaboration and sharing
 
-### 6. Advanced Features (`advanced_features_guide.md`)
+### 6. Advanced Features (`06_advanced_features_guide.md`)
 - Multi-language kernels (R, Julia, JavaScript)
 - Parallel computing and distributed processing
 - Database integration and connections
@@ -132,7 +132,7 @@ Jupyter/
 - Custom extensions and plugins
 - Enterprise features and security
 
-### 7. Deployment (`deployment_guide.md`)
+### 7. Deployment (`07_deployment_guide.md`)
 - Converting notebooks to scripts
 - Automated execution and scheduling
 - Cloud deployment options
@@ -154,13 +154,13 @@ jupyter lab
 ### Sequential Learning
 For comprehensive learning, read the guides in order:
 
-1. Start with `jupyter_basics_guide.md`
-2. Continue with `jupyterlab_interface_guide.md`
-3. Learn `magic_commands_guide.md`
-4. Explore `interactive_widgets_guide.md`
-5. Study `best_practices_guide.md`
-6. Master `advanced_features_guide.md`
-7. Finish with `deployment_guide.md`
+1. Start with `01_jupyter_basics_guide.md`
+2. Continue with `02_jupyterlab_interface_guide.md`
+3. Learn `03_magic_commands_guide.md`
+4. Explore `04_interactive_widgets_guide.md`
+5. Study `05_best_practices_guide.md`
+6. Master `06_advanced_features_guide.md`
+7. Finish with `07_deployment_guide.md`
 
 ### Converting to Notebooks
 You can convert the markdown guides to Jupyter notebooks for interactive learning:
@@ -170,7 +170,7 @@ You can convert the markdown guides to Jupyter notebooks for interactive learnin
 conda install pandoc
 
 # Convert markdown to notebook
-pandoc jupyter_basics_guide.md -o jupyter_basics_guide.ipynb
+pandoc 01_jupyter_basics_guide.md -o 01_jupyter_basics_guide.ipynb
 ```
 
 ## Environment Management
