@@ -59,12 +59,12 @@ print(f"GPU available: {tf.config.list_physical_devices('GPU')}")
 
 ```
 TensorFlow/
-├── tensorflow_basics_guide.md         # TensorFlow fundamentals and basics
-├── neural_networks_guide.md           # Building and training neural networks
-├── cnn_guide.md                       # Convolutional Neural Networks
-├── rnn_guide.md                       # Recurrent Neural Networks
-├── data_pipelines_guide.md            # Data loading and preprocessing
-├── advanced_guide.md                  # Advanced TensorFlow techniques
+├── 01_tensorflow_basics_guide.md      # TensorFlow fundamentals and basics
+├── 02_neural_networks_guide.md        # Building and training neural networks
+├── 03_cnn_guide.md                    # Convolutional Neural Networks
+├── 04_rnn_guide.md                    # Recurrent Neural Networks
+├── 05_data_pipelines_guide.md         # Data loading and preprocessing
+├── 06_advanced_guide.md               # Advanced TensorFlow techniques
 ├── environment.yml                    # Conda environment configuration
 ├── requirements.txt                   # pip dependencies
 └── README.md                          # This file
@@ -72,37 +72,37 @@ TensorFlow/
 
 ## Tutorial Structure
 
-### 1. TensorFlow Basics (`tensorflow_basics_guide.md`)
+### 1. TensorFlow Basics (`01_tensorflow_basics_guide.md`)
 - Understanding tensors and operations
 - Computational graphs and eager execution
 - Basic mathematical operations
 - Variable and constant tensors
 
-### 2. Neural Networks (`neural_networks_guide.md`)
+### 2. Neural Networks (`02_neural_networks_guide.md`)
 - Building neural networks with Keras
 - Dense layers and activation functions
 - Model compilation and training
 - Evaluation and prediction
 
-### 3. Convolutional Neural Networks (`cnn_guide.md`)
+### 3. Convolutional Neural Networks (`03_cnn_guide.md`)
 - CNN architecture fundamentals
 - Image preprocessing and augmentation
 - Training CNNs for image classification
 - Transfer learning with pre-trained models
 
-### 4. Recurrent Neural Networks (`rnn_guide.md`)
+### 4. Recurrent Neural Networks (`04_rnn_guide.md`)
 - RNN, LSTM, and GRU architectures
 - Sequential data processing
 - Time series forecasting
 - Text generation and classification
 
-### 5. Data Pipelines (`data_pipelines_guide.md`)
+### 5. Data Pipelines (`05_data_pipelines_guide.md`)
 - Efficient data loading with tf.data
 - Data preprocessing and augmentation
 - Performance optimization
 - Custom data generators
 
-### 6. Advanced TensorFlow (`advanced_guide.md`)
+### 6. Advanced TensorFlow (`06_advanced_guide.md`)
 - Custom training loops
 - Model subclassing
 - Advanced optimization techniques
@@ -132,12 +132,12 @@ jupyter lab
 ### Sequential Learning
 For comprehensive learning, follow the guides in order:
 
-1. Start with `tensorflow_basics_guide.md`
-2. Progress to `neural_networks_guide.md`
-3. Explore `cnn_guide.md` for computer vision
-4. Study `rnn_guide.md` for sequential data
-5. Learn `data_pipelines_guide.md` for efficient data handling
-6. Master `advanced_guide.md` for advanced techniques
+1. Start with `01_tensorflow_basics_guide.md`
+2. Progress to `02_neural_networks_guide.md`
+3. Explore `03_cnn_guide.md` for computer vision
+4. Study `04_rnn_guide.md` for sequential data
+5. Learn `05_data_pipelines_guide.md` for efficient data handling
+6. Master `06_advanced_guide.md` for advanced techniques
 
 ## Environment Management
 
