@@ -12,6 +12,9 @@
 [![Seaborn](https://img.shields.io/badge/Seaborn-0.12+-orange.svg)](https://seaborn.pydata.org/)
 [![Plotly](https://img.shields.io/badge/Plotly-5.0+-purple.svg)](https://plotly.com/python/)
 [![Conda](https://img.shields.io/badge/Conda-Environment-green.svg)](https://docs.conda.io/)
+[![R](https://img.shields.io/badge/R-4.0+-blue.svg)](https://www.r-project.org/)
+[![CRAN](https://img.shields.io/badge/CRAN-Packages-blue.svg)](https://cran.r-project.org/)
+[![tidyverse](https://img.shields.io/badge/tidyverse-1.3+-blueviolet.svg)](https://www.tidyverse.org/)
 
 A comprehensive collection of toolkits for essential AI/ML and Data Science libraries in Python. This toolkit is designed to help you quickly get started with scientific computing, data analysis, machine learning, deep learning, and data visualization.
 
@@ -24,6 +27,7 @@ A comprehensive collection of toolkits for essential AI/ML and Data Science libr
 - **[Matplotlib Tutorials](./Matplotlib/)** - Data visualization and plotting fundamentals (Markdown guides)
 - **[Seaborn Tutorials](./Seaborn/)** - Statistical data visualization (Markdown guides)
 - **[Plotly Tutorials](./Plotly/)** - Interactive data visualization and dashboards (Markdown guides)
+- **[R Tutorials](./R/)** - R programming for data science, statistics, and visualization (Markdown guides: basics, data structures, manipulation, visualization, statistics, programming, advanced, real-world)
 
 ### Machine Learning & Deep Learning
 - **[scikit-learn Tutorials](./scikit-learn/)** - Machine learning algorithms and workflows (Markdown guides)
@@ -39,6 +43,7 @@ All modules follow a consistent structure with:
 - **Individual environment files** (`environment.yml`, `requirements.txt`) for isolated development
 - **Comprehensive README files** with module-specific instructions
 - **Progressive learning paths** from basics to advanced topics
+- **R module** may have a different environment setup (see its README for details)
 
 ## Quick Start
 
@@ -150,6 +155,12 @@ pip install -r requirements.txt
 - **Dependencies:** PyTorch, NumPy, pandas, Matplotlib, JupyterLab
 - **Focus:** Deep learning with PyTorch (organized in progressive learning modules)
 
+### R Module
+- **Files:** `01_r_basics_guide.md`, `02_data_structures_guide.md`, `03_data_manipulation_guide.md`, `04_data_visualization_guide.md`, `05_statistical_analysis_guide.md`, `06_programming_guide.md`, `07_advanced_features_guide.md`, `08_real_world_applications_guide.md`
+- **Dependencies:** R, tidyverse, data.table, ggplot2, dplyr, tidyr, readr, shiny, knitr, rmarkdown, Rcpp (see R/README.md)
+- **Focus:** R programming for data science, statistics, and visualization
+- **Note:** Comprehensive markdown guides for R workflows and best practices
+
 ## Learning Path
 
 ### Beginner Path
@@ -250,6 +261,16 @@ Each module contains detailed README files with:
 - **Running instructions** for tutorials
 - **Best practices** and tips
 - **Additional resources** and references
+- **R module:** Now includes comprehensive guides:
+  - `01_r_basics_guide.md` (R basics)
+  - `02_data_structures_guide.md` (Data structures)
+  - `03_data_manipulation_guide.md` (Data manipulation)
+  - `04_data_visualization_guide.md` (Data visualization)
+  - `05_statistical_analysis_guide.md` (Statistical analysis)
+  - `06_programming_guide.md` (Programming in R)
+  - `07_advanced_features_guide.md` (Advanced features)
+  - `08_real_world_applications_guide.md` (Real-world applications)
+  - See R/README.md for setup and usage
 
 ## Contributing
 
