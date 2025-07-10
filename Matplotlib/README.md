@@ -380,10 +380,6 @@ Found an error or have a suggestion? Contributions are welcome!
 3. Make your changes
 4. Submit a pull request
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](../LICENSE) file for details.
-
 ---
 
 **Happy Plotting!** 
