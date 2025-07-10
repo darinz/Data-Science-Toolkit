@@ -1328,4 +1328,4 @@ Following these best practices ensures that your Jupyter notebooks are:
 
 ---
 
-**Happy Notebooking!** 📓✨ 
+**Happy Notebooking!**
