@@ -641,4 +641,4 @@ plt.show()
 
 ---
 
-**Create stunning 3D visualizations!** 🌟 
+**Create stunning 3D visualizations!**
