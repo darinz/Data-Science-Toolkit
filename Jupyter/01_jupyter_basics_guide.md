@@ -557,4 +557,4 @@ This guide covers Jupyter fundamentals. As you progress, explore:
 
 ---
 
-**Happy Interactive Computing!** 🚀
+**Happy Interactive Computing!**
