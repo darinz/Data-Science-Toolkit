@@ -671,4 +671,4 @@ plt.show()
 
 ---
 
-**Master statistical visualization!** 📊 
+**Master statistical visualization!**
