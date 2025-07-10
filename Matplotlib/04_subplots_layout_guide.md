@@ -658,4 +658,4 @@ plt.show()
 
 ---
 
-**Master complex multi-panel visualizations!** 📊 
+**Master complex multi-panel visualizations!**
