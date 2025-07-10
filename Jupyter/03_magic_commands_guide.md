@@ -841,4 +841,4 @@ Magic commands are powerful tools that enhance Jupyter's functionality. Key take
 
 ---
 
-**Happy Magic Commanding!** ✨ 
+**Happy Magic Commanding!**
