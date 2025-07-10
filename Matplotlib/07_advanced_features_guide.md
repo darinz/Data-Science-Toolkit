@@ -941,4 +941,4 @@ plt.show()
 
 ---
 
-**Master advanced Matplotlib techniques!** 🚀 
+**Master advanced Matplotlib techniques!**
