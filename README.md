@@ -16,7 +16,7 @@
 [![CRAN](https://img.shields.io/badge/CRAN-Packages-blue.svg)](https://cran.r-project.org/)
 [![tidyverse](https://img.shields.io/badge/tidyverse-1.3+-blueviolet.svg)](https://www.tidyverse.org/)
 
-A comprehensive collection of toolkits for essential AI/ML and Data Science libraries in Python. This toolkit is designed to help you quickly get started with scientific computing, data analysis, machine learning, deep learning, and data visualization.
+A comprehensive collection of toolkits for essential AI/ML and Data Science libraries. This toolkit is designed to help you quickly get started with scientific computing, data analysis, machine learning, deep learning, and data visualization.
 
 ## What's Included
 
