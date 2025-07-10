@@ -232,4 +232,4 @@ For issues and questions:
 
 ---
 
-**Happy Interactive Plotting!** 📊✨ 
+**Happy Interactive Plotting!**
