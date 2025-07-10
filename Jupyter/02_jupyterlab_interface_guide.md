@@ -723,4 +723,4 @@ JupyterLab provides a powerful and flexible environment for interactive computin
 
 ---
 
-**Happy JupyterLab-ing!** 🚀 
+**Happy JupyterLab-ing!**
