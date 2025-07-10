@@ -248,4 +248,4 @@ add_button()
 
 ---
 
-**Explore the power of Jupyter's advanced features!** 🚀 
+**Explore the power of Jupyter's advanced features!**
