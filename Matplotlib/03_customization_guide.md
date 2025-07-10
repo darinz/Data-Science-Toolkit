@@ -662,4 +662,4 @@ plt.show()
 
 ---
 
-**Create stunning, professional visualizations!** 🎨 
+**Create stunning, professional visualizations!**
