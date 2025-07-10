@@ -230,4 +230,4 @@ jupyter-job:
 
 ---
 
-**Deploy your Jupyter workflows with confidence!** 🚀 
+**Deploy your Jupyter workflows with confidence!**
