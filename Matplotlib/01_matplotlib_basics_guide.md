@@ -201,4 +201,4 @@ plt.close()
 
 ---
 
-**Happy Plotting!** 🎨 
+**Happy Plotting!**
