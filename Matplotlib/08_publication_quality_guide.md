@@ -921,4 +921,4 @@ automated_quality_test()
 
 ---
 
-**Create stunning publication-quality visualizations!** 📊 
+**Create stunning publication-quality visualizations!**
